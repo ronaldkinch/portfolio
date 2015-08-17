@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @folio.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @folio.url %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @folio.description %>
+</p>
+
+<%= link_to 'Edit', edit_folio_path(@folio) %> |
+<%= link_to 'Back', folios_path %>
